@@ -1,0 +1,26 @@
+title: 神经影像技术社区
+subtitle: neuroimAging teChnology communiTy (ACT)
+author:
+email:
+description: >-
+  神经影像技术社区
+baseurl:
+url: "act-china.github.io"
+
+# Build settings
+show_excerpts: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title/
+
+oscailte:
+  google_analytics:
+  social:
+    github: act-china
+
+header_pages:
+ - index.md
+ - about.md
