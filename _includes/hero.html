@@ -1,7 +1,10 @@
 <section class="Hero o-circuited">
   <div class="Hero__content Container">
     {%- unless page.layout == 'post' or site.oscailte.social.github == nil -%}
+    {% comment %}
       {% avatar {{site.oscailte.social.github}} size=350 %}
+    {% endcomment %}
+    <img class="avatar" alt="act-china" data-proofer-ignore="true" src="../assets/act/logo.png" width="350" height="350">
     {%- endunless -%}
 
     <h1 class="Hero__title">
